@@ -10,7 +10,7 @@ class Chat extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurpleAccent,
-        title: const Text('commit済み'),
+        title: const Text('リモートでコミット'),
       ),
       body: Center(
         child: GridView.builder(
