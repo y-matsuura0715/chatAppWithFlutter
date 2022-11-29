@@ -10,12 +10,13 @@ class Chat extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurpleAccent,
-        title: const Text('チャvfdvfdsvfvsット'),
+        title: const Text('commit済み'),
       ),
       body: Center(
         child: GridView.builder(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3),
+                crossAxisCount: 3
+            ),
             itemCount: 20,
             itemBuilder: (context, index) {
               return Padding(
