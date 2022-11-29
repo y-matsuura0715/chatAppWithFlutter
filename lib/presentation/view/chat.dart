@@ -10,7 +10,7 @@ class Chat extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurpleAccent,
-        title: const Text('ローカルリベーステスト'),
+        title: const Text('リモートリベーステスト100回目'),
       ),
       body: Center(
         child: GridView.builder(
